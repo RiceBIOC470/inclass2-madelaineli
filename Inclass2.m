@@ -5,13 +5,13 @@
 
 for ii = 1:20
     if mod(ii,2) == 1
-        disp (int2str(ii))
+        disp (num2str(ii))
     end
 end
 
 % b. Write a new loop to display the same odd numbers which doesn't use a conditional statement 
 for ii = 1:2:19
-    disp (ii)
+    disp (num2str(ii))
 end
 % c. display the same odd numbers without a loop or conditional (hint use
 %  num2str)
