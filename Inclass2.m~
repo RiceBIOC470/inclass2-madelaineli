@@ -30,7 +30,7 @@ for ii = 1:100
 end
 
 %b. 
-Z = sum(1:100);
+Z = sum([1:100]);
 
 z = 0;
 for ii = 1:100
@@ -51,7 +51,7 @@ for ii = 1:50
 end
 
 % d. what is the formula in c computing?
-% It's computing the length of hypotenuse given the lengths of the other
+% It's computing the length of hypotenuse given the lengths of each of the
 % two sides using pythagorean theorem.
 
 %% plotting
